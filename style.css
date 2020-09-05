@@ -7,4 +7,16 @@ body {
 h1 {
   font-style: italic;
   color: #373fff;
+  animation: by-percentage 5s ease-in 2s infinite alternate
+}
+
+/* fancy animation */
+
+@keyframes by-percentage {
+  0% { background-color: red; }
+  20% { background-color: orange; }
+  40% { background-color: yellow; }
+  60% { background-color: green; }
+  80% { background-color: blue; }
+  100% { background-color: violet; }
 }
