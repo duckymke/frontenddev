@@ -1,8 +1,17 @@
-body { 
-  font-family: verdana, sans-serif; 
+body {
+  font-family: verdana, sans-serif;
+  text-align: center;
 }
-a { 
-  border: 1px solid darkorchid; 
+a {
+  border: 1px solid darkorchid;
   color: darkorchid;
-  
+  padding: 5px;
+  text-decoration: none;
+}
+a:hover
+li {
+  display: inline;
+}
+ul{
+  padding:0;
 }
