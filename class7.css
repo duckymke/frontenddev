@@ -1,0 +1,23 @@
+body {
+  font-family: verdana, sans-serif;
+  text-align: center;
+  background-color: azure;
+}
+a {
+  border: 1px solid darkorchid;
+  color: darkorchid;
+  padding: 5px;
+  text-decoration: none;
+}
+a:hover{
+  background-color:lavender;
+}
+a:active {
+  background-color: red;
+}
+li {
+  display: inline;
+}
+ul{
+  padding:0;
+}
