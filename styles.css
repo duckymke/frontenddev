@@ -1,3 +1,11 @@
+body {
+  margin: 0px;
+}
+
+h2 p {
+  padding: 0 0 0 30px;
+}
+
 header {
   background-color: aliceblue;
   height: 150px;
@@ -20,7 +28,6 @@ nav ul {
 
 nav li {
   display: inline;
-  padding: 10px;
 }
 
 nav a {
@@ -31,6 +38,16 @@ nav a {
   
 }
 
-nav li:hover {
+nav a:hover {
   background-color: grey;
+}
+
+main h2 {
+  font-size: 40px
+}
+
+footer {
+  background-color: aliceblue;
+  height: 100px;
+  
 }
