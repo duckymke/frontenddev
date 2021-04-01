@@ -1,8 +1,9 @@
 body {
   margin: 0px;
+  font-family: "helvetica";
 }
 
-h2 p {
+h2, p {
   padding: 0 0 0 30px;
 }
 
@@ -15,6 +16,14 @@ header h1 {
   line-height: 140px;
   margin: 0 0 0 30px;
   font-size: 60px;
+}
+
+header img {
+  width: 100px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  border-radius: 15%;
 }
 
 nav {
