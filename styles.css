@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: verdana;
-  background-color: #FEFAE0;
-  color: #D4A373;
+  background-color: white;
+  color: #90be6d;
 }
 
 h2, p {
@@ -10,8 +10,8 @@ h2, p {
 }
 
 header {
-  height: 200px;
-  background: linear-gradient(45deg, #90be6d, #D4DDBB) ;
+  height: 400px;
+  background: linear-gradient(45deg, #2b9348, #D4DDBB) ;
 }
 
 header h1 {
@@ -30,7 +30,7 @@ header img {
 }
 
 nav {
-  background-color: #D4DDBB;
+  background-color: #206F36;
   padding: 10px 0;
 }
 
