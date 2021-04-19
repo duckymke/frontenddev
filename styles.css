@@ -11,13 +11,13 @@ h2, p {
 
 header {
   height: 400px;
-  background: linear-gradient(45deg, #2b9348, #D4DDBB) ;
+  background: linear-gradient(90deg, #2b9348, #D4DDBB) ;
 }
 
 header h1 {
-  line-height: 140px;
+  line-height: 400px;
   margin: 0 0 0 30px;
-  font-size: 60px;
+  font-size: 40px;
   color: white;
 }
 
@@ -32,6 +32,7 @@ header img {
 nav {
   background-color: #206F36;
   padding: 10px 0;
+  background: linear-gradient(90deg, #2b9348, #D4DDBB)
 }
 
 nav ul {
@@ -43,7 +44,7 @@ nav li {
 }
 
 nav a {
-  color: #D4A373;
+  color: #D4DDBB;
   padding: 10px;
   font-size: 24px;
   text-decoration: none; 
