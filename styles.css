@@ -11,7 +11,7 @@ h2, p {
 
 header {
   height: 200px;
-  background: linear-gradient(#BBC893, #D4DDBB);
+  background: linear-gradient(45deg, #90be6d, #D4DDBB) ;
 }
 
 header h1 {
@@ -57,12 +57,9 @@ main h2 {
   font-size: 40px
 }
 
-section {
-  text-align: center;
-}
 
 footer {
-  background: linear-gradient(#BBC893, #D4DDBB);
+  background: linear-gradient(45deg, #BBC893, #D4DDBB);
   height: 100px;
   color: white;
 }
