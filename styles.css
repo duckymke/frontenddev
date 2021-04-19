@@ -3,7 +3,6 @@ body {
   font-family: verdana;
   background-color: #FEFAE0;
   color: #D4A373;
-  
 }
 
 h2, p {
@@ -44,7 +43,7 @@ nav li {
 }
 
 nav a {
-  color: #81b29a;
+  color: #D4A373;
   padding: 10px;
   font-size: 24px;
   text-decoration: none; 
@@ -58,8 +57,12 @@ main h2 {
   font-size: 40px
 }
 
+section {
+  text-align: center;
+}
+
 footer {
-  background: linear-gradient(#81b29a,#B8D5B8);
+  background: linear-gradient(#BBC893, #D4DDBB);
   height: 100px;
   color: white;
 }
