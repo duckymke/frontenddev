@@ -28,7 +28,7 @@ header img {
 }
 
 nav {
-  background-color: black;
+  background-color: white;
   padding: 10px 0;
 }
 
@@ -41,7 +41,7 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: #05A8AA;
   padding: 10px;
   font-size: 24px;
   text-decoration: none; 
