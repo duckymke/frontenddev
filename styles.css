@@ -11,7 +11,7 @@ h2, p {
 
 header {
   height: 500px;
-  background: linear-gradient(90deg, #2b9348, #D4DDBB) ;
+  background: linear-gradient(90deg, #90be6d, #D4DDBB) ;
 }
 
 header h1 {
@@ -32,7 +32,7 @@ header img {
 nav {
   background-color: #206F36;
   padding: 20px 0;
-  background: linear-gradient(90deg, #2b9348, #D4DDBB)
+  background: linear-gradient(90deg, #90be6d, #D4DDBB);
 }
 
 nav ul {
@@ -56,5 +56,10 @@ nav a:hover {
 
 main h2 {
   font-size: 40px
+}
+
+footer {
+  background: linear-gradient(90deg, #90be6d, #D4DDBB);
+  
 }
 
