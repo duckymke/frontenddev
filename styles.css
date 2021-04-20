@@ -23,11 +23,10 @@ header h1 {
 }
 
 header img {
-  width: 100px;
+  width: 300px;
   position: absolute;
-  right: 30px;
-  top: 30px;
-  border-radius: 15%;
+  right: 560px;
+  top: 150px;
 }
 
 nav {
