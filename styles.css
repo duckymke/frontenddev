@@ -5,13 +5,14 @@ body {
   color: #90be6d;
 }
 
-h2, p {
+h2,
+p {
   padding: 0 0 0 30px;
 }
 
 header {
   height: 500px;
-  background: linear-gradient(90deg, #90be6d, #D4DDBB) ;
+  background: linear-gradient(90deg, #90be6d, #D4DDBB);
 }
 
 header h1 {
@@ -47,7 +48,7 @@ nav a {
   color: #D4DDBB;
   padding: 12px;
   font-size: 18px;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -55,11 +56,14 @@ nav a:hover {
 }
 
 main h2 {
-  font-size: 40px
+  font-size: 40px;
+}
+
+#quote {
+  color: grey;
+  text-align: center;
 }
 
 footer {
   background: linear-gradient(90deg, #90be6d, #D4DDBB);
-  
 }
-
