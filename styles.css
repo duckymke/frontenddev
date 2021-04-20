@@ -23,16 +23,17 @@ header h1 {
 }
 
 header img {
-  width: 300px;
+  width: 400px;
   position: absolute;
-  right: 560px;
-  top: 150px;
+  right: 520px;
+  top: 125px;
 }
 
 nav {
   background-color: #206F36;
   padding: 20px 0;
   background: linear-gradient(90deg, #90be6d, #D4DDBB);
+  text-align: right;
 }
 
 nav ul {
@@ -44,7 +45,7 @@ nav li {
 }
 
 nav a {
-  color: #D4DDBB;
+  color: #90be6d;
   padding: 12px;
   font-size: 18px;
   text-decoration: none;
