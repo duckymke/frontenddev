@@ -65,6 +65,8 @@ main h2 {
 }
 
 footer {
+  background-color: #202020;
+  margin: 0;
 }
 
 table,
