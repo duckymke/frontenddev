@@ -2,12 +2,13 @@ body {
   margin: 0px;
   font-family: 'Courier new';
   background-color: white;
-  color: #90be6d;
+  color: black;
 }
 
 h2,
 p {
-  padding: 0 0 0 30px;
+  padding: 30px 30px 30px 30px;
+  font-size: 18px;
 }
 
 header {
@@ -60,9 +61,11 @@ main h2 {
   font-size: 40px;
 }
 
-#quote {
-  color: #50575e;
+#ans {
+  color: black;
   text-align: center;
+  padding: 0px;
+  
 }
 
 footer {
