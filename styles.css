@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  font-family: verdana;
+  font-family: 'Courier new';
   background-color: white;
   color: #90be6d;
 }
@@ -20,6 +20,7 @@ header h1 {
   font-size: 45px;
   color: white;
   text-align: center;
+  font-family:'Verdana';
 }
 
 header img {
@@ -45,7 +46,7 @@ nav li {
 }
 
 nav a {
-  color: #50575e;
+  color: black;
   padding: 12px;
   font-size: 18px;
   text-decoration: none;
