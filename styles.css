@@ -84,6 +84,7 @@ table {
   font-family: "verdana";
   font-size: 30px;
   text-align: left;
+  font-weight: bold;
 }
 
 .hover:hover {
