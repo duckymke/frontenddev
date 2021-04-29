@@ -75,12 +75,18 @@ footer {
 table,
 tr,
 td {
-  border: solid;
+  border: none;
   font-family: "Courier New";
   border-collapse: collapse;
   padding: 40px;
 }
 
 table {
-  width: 100%;
+  width: 99%;
+}
+
+#html {
+  font-family: 'verdana';
+  font-size: 30px;
+  text-align: center;
 }
