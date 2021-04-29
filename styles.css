@@ -85,8 +85,12 @@ table {
   width: 99%;
 }
 
-#html {
+.hover {
   font-family: 'verdana';
   font-size: 30px;
   text-align: center;
+}
+
+.hover::hover {
+  color: #264653;
 }
