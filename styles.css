@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  font-family: 'Courier new';
+  font-family: "Courier new";
   background-color: white;
   color: black;
   font-weight: bold;
@@ -22,14 +22,10 @@ header h1 {
   font-size: 45px;
   color: white;
   text-align: center;
-  font-family:'Verdana';
+  font-family: "Verdana";
 }
 
 header img {
-  width: 400px;
-  position: absolute;
-  right: 520px;
-  top: 125px;
 }
 
 nav {
@@ -69,7 +65,6 @@ main h2 {
 }
 
 footer {
-  background: linear-gradient(90deg, #90be6d, #D4DDBB);
 }
 
 table,
@@ -86,11 +81,11 @@ table {
 }
 
 .hover {
-  font-family: 'verdana';
+  font-family: "verdana";
   font-size: 30px;
-  text-align: center;
+  text-align: left;
 }
 
-.hover::hover {
-  color: #264653;
+.hover:hover {
+  color: #4ED0C1;
 }
