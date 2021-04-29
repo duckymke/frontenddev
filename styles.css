@@ -71,3 +71,16 @@ main h2 {
 footer {
   background: linear-gradient(90deg, #90be6d, #D4DDBB);
 }
+
+table,
+tr,
+td {
+  border: solid;
+  font-family: "Courier New";
+  border-collapse: collapse;
+  padding: 40px;
+}
+
+table {
+  width: 100%;
+}
