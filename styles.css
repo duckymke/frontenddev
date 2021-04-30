@@ -31,7 +31,7 @@ header img {
 
 nav {
   padding: 20px;
-/*   background: linear-gradient(90deg, #264653, #4ED0C1); */
+  background: linear-gradient(90deg, #264653, #4ED0C1);
   text-align: right;
   position: fixed;
   right: 0px;
