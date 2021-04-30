@@ -30,12 +30,16 @@ header img {
 }
 
 nav {
-  padding: 20px;
+/*   padding: 20px; */
   background: linear-gradient(90deg, #264653, #4ED0C1);
   text-align: right;
   position: fixed;
   right: 0px;
   width: 100%;
+}
+
+nav > * {
+  padding: 20px;
 }
 
 nav ul {
