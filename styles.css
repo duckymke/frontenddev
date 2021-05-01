@@ -9,6 +9,7 @@ body {
 
 .container {
   display: flex;
+  z-index: -1;
 }
 
 /* .container > * { */
@@ -17,19 +18,14 @@ body {
 
 
 .container-left {
-  flex-basis: 25%;
+  flex-basis: 24.99%;
 
 }
 
 .resizer {
-  display: block;
-  height: 100%;
-  position: absolute;
-  right: -10px;
-  top: 0;
+  flex-basis: 0.01%;
+  border: solid;
   width: 10px;
-  user-select: none;
-  z-index: 2;
 }
 
 .container-right {
