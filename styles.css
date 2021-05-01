@@ -4,6 +4,19 @@ body {
   background-color: white;
   color: black;
   font-weight: 300;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+}
+
+.container-left {
+  flex-basis: 25%;
+}
+
+.container-right {
+  flex-basis: 75%;
 }
 
 h2,
@@ -63,20 +76,6 @@ nav a:hover {
 
 main h2 {
   font-size: 40px;
-}
-
-table,
-tr,
-td {
-  border: none;
-  font-family: "Courier New";
-  border-collapse: collapse;
-  padding: 40px;
-  font-weight: 500;
-}
-
-table {
-  width: 100%;
 }
 
 .hover {
