@@ -11,6 +11,11 @@ body {
   display: flex;
 }
 
+.container > * {
+  border: .01em solid lightgray;
+  
+}
+
 .container-left {
   flex-basis: 25%;
 }
