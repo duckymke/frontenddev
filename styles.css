@@ -11,13 +11,25 @@ body {
   display: flex;
 }
 
-.container > * {
-  border: .01em solid lightgray;
+/* .container > * { */
+/*   border: .01em solid lightgray; */
   
-}
+
 
 .container-left {
   flex-basis: 25%;
+
+}
+
+.resizer {
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: -10px;
+  top: 0;
+  width: 10px;
+  user-select: none;
+  z-index: 2;
 }
 
 .container-right {
