@@ -16,16 +16,9 @@ body {
 /*   border: .01em solid lightgray; */
   
 
-
 .container-left {
   flex-basis: 24.99%;
 
-}
-
-.resizer {
-  flex-basis: 0.01%;
-  border: solid;
-  width: 10px;
 }
 
 .container-right {
@@ -92,12 +85,12 @@ main h2 {
   color: white
 }
 
-.hover {
+h2.hover {
   font-family: "verdana";
   font-size: 30px;
   text-align: left;
   font-weight: bold;
-  color: #202020;
+  color: gray;
 }
 
 .hover:hover {
