@@ -109,3 +109,16 @@ footer {
 .lang {
 /*   display: flex */
 }
+
+#htmlheader {
+  height: 200px;
+  background: linear-gradient(90deg, #264653, #4ED0C1);
+}
+
+#htmlh1 {
+  line-height: 200px;
+  text-align: left;
+  position: absolute;
+  left: 50px;
+  top: 30px;
+}
