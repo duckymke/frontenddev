@@ -127,3 +127,8 @@ li {
   text-decoration: none;
 }
 
+table , tr, td {
+  border: solid;
+  border-collapse: collapse;
+  padding: 20px;
+}
