@@ -88,7 +88,8 @@ h2.hover {
   font-size: 30px;
   text-align: left;
   font-weight: bold;
-  color: gray;
+  color: grey;
+  text-decoration: none;
 }
 
 .hover:hover {
