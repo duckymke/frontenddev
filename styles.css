@@ -131,12 +131,14 @@ table , tr, td {
   border: solid;
   border-collapse: collapse;
   padding: 15px;
+  position: relative;
+  left: 200px;
 }
 
 #example {
-  position: absolute;
-  top: 480px;
-  right: 650px;
+  position: relative;
+  top: -150px;
+  left: 400px;
   border: solid;
 }
 
