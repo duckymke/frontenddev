@@ -132,3 +132,10 @@ table , tr, td {
   border-collapse: collapse;
   padding: 15px;
 }
+
+#example {
+  position: absolute;
+  top: 480px;
+  right: 650px;
+  border: solid;
+}
