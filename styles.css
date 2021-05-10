@@ -109,12 +109,13 @@ footer {
   background: linear-gradient(90deg, #264653, #4ED0C1);
 }
 
-#htmlh1 {
-  line-height: 200px;
+#navpages {
+  font-size: 38px;
+  line-height: 100px;
   text-align: left;
   position: absolute;
   left: 50px;
-  top: 30px;
+  top: 50px;
 }
 
 main {
