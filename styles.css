@@ -11,11 +11,7 @@ body {
   display: flex;
   z-index: -1;
 }
-
-/* .container > * { */
-/*   border: .01em solid lightgray; */
   
-
 .container-left {
   flex-basis: 24.99%;
 
@@ -45,11 +41,11 @@ header h1 {
   font-family: "Verdana";
 }
 
-header img {
-}
+/* header img { */
+/* } */
 
 nav {
-/*   padding: 20px; */
+/*   padding: 20px; wasn't working so i used direct child *below* */ 
   background: linear-gradient(90deg, #264653, #4ED0C1);
   text-align: right;
   position: fixed;
@@ -80,9 +76,11 @@ nav a:hover {
   color: white;
 }
 
-main h2 {
-  font-size: 40px;
-  color: white
+h2 {
+  font-family: "verdana";
+  font-size: 30px;
+  font-weight: bold;
+  color: grey;
 }
 
 h2.hover {
@@ -101,13 +99,9 @@ footer {
   background-color: rgba(32,32,32,0.9);
   margin: 0;
   color: white;
-  font-family: 'arial';
+  font-family: 'arial', sans-serif;
   font-weight: 100;
   height: 300px;
-}
-
-.lang {
-/*   display: flex */
 }
 
 #htmlheader {
@@ -122,3 +116,9 @@ footer {
   left: 50px;
   top: 30px;
 }
+
+main {
+  margin: 20px;
+}
+
+
