@@ -120,7 +120,7 @@ footer {
 }
 
 main {
-  margin: 20px;
+  margin: 40px;
 }
 
 li {
@@ -128,18 +128,16 @@ li {
 }
 
 table , tr, td {
-  border: solid;
+  border: 1px solid blue;
   border-collapse: collapse;
   padding: 15px;
-  position: relative;
-  left: 200px;
 }
 
 #example {
   position: relative;
   top: -150px;
   left: 400px;
-  border: solid;
+  border: 1px solid blue;
 }
 
 #element {
