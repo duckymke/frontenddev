@@ -128,16 +128,16 @@ li {
 }
 
 table , tr, td {
-  border: 1px solid blue;
+  border: 2px solid silver;
   border-collapse: collapse;
   padding: 15px;
 }
 
 #example {
-  position: absolute;
-  top: 480px;
+  position: relative;
+  top: 520px;
   left: 400px;
-  border: 1px solid blue;
+  border: 2px solid silver;
 }
 
 #element {
