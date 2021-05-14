@@ -158,5 +158,11 @@ td:nth-child(6) { background: hsl(200, 99%, 50%); } */
 }
 
 #block {
-  float: left;
+  display: flex;
+  flex: 1;
+}
+
+#inline {
+  display: flex;
+  flex: 1;
 }
