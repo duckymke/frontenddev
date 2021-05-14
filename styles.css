@@ -156,3 +156,7 @@ td:nth-child(6) { background: hsl(200, 99%, 50%); } */
   border: 2px solid silver;
   z-index: -1;
 }
+
+#block {
+  float: left;
+}
