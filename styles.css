@@ -158,9 +158,9 @@ td:nth-child(6) { background: hsl(200, 99%, 50%); } */
 }
 
 #table1 {
-  margin: 75px;
+  left: 75px;
 }
 
 #h21 {
-  margin: 75px;
+  left 75px;
 }
