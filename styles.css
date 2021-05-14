@@ -125,7 +125,7 @@ main {
 }
 
 li {
-  text-decoration: none;
+  text-decoration: clear;
   padding: 18px;
 }
 
@@ -138,7 +138,7 @@ table {
   border-spacing: 0.5rem;
 }
 td {
-  padding: 0.5rem;
+  padding: 25px;
   background-color: lavender;
 }
 
@@ -155,4 +155,12 @@ td:nth-child(6) { background: hsl(200, 99%, 50%); } */
   left: 300px;
   border: 2px solid silver;
   z-index: -1;
+}
+
+#table1 {
+  margin: 75px;
+}
+
+#h21 {
+  margin: 75px;
 }
