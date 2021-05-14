@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  font-family: "Roboto", sans-serif;
+  font-family: "arial", sans-serif;
   background-color: white;
   color: black;
   font-weight: 300;
@@ -13,12 +13,12 @@ body {
 }
   
 .container-left {
-  flex-basis: 24.99%;
+  flex: 1;
 
 }
 
 .container-right {
-  flex-basis: 75%;
+  flex: 3;
 }
 
 h3, h2,
