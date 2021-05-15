@@ -170,3 +170,9 @@ td:nth-child(6) { background: hsl(200, 99%, 50%); } */
   flex: 1;
   width: 20px;
 }
+
+section.class {
+  background-color: gainsboro;
+  padding: 20px;
+  width: 40%;
+}
