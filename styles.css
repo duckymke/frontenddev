@@ -50,6 +50,7 @@ nav {
   text-align: right;
   position: fixed;
   right: 0px;
+  top: 0px;
   width: 100%;
   z-index: 1;
 }
@@ -125,7 +126,6 @@ main {
 }
 
 li {
-  text-decoration: clear;
   padding: 18px;
 }
 
