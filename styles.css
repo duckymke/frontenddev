@@ -178,12 +178,15 @@ td:nth-child(6) { background: hsl(200, 99%, 50%); } */
 #p {
   background-color: gainsboro;
   padding: 10px;
-  width: 30%;
-  float: right;
+  width: 50%;
 }
 
 section.class {
   background-color: gainsboro;
   padding: 20px;
   width: 40%;
+}
+
+#table {
+  float:left;
 }
