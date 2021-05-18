@@ -41,9 +41,6 @@ header h1 {
   font-family: "Verdana";
 }
 
-/* header img { */
-/* } */
-
 nav {
 /*   padding: 20px; wasn't working so i used direct child *below* */ 
   background: linear-gradient(90deg, #264653, #4ED0C1);
@@ -108,10 +105,6 @@ footer {
   padding: 30px;
 }
 
-#htmlheader {
-  height: 200px;
-  background: linear-gradient(90deg, #264653, #4ED0C1);
-}
 
 #navpages {
   font-size: 38px;
@@ -130,11 +123,6 @@ li {
   padding: 18px;
 }
 
-/* table , tr, td {
-  border: 2px solid silver;
-  border-collapse: collapse;
-  padding: 15px;
-} */
 table {
   border-spacing: 0.5rem;
 }
@@ -142,14 +130,6 @@ td {
   padding: 25px;
   background-color: gainsboro;
 }
-
-/* td:nth-child(1) { background: hsl(150, 50%, 50%); }
-td:nth-child(2) { background: hsl(160, 60%, 50%); }
-td:nth-child(3) { background: hsl(170, 70%, 50%); }
-td:nth-child(4) { background: hsl(180, 80%, 50%); }
-td:nth-child(5) { background: hsl(190, 90%, 50%); }
-td:nth-child(6) { background: hsl(200, 99%, 50%); } */
-
 #example {
   position: relative;
   top: -150px;
@@ -158,19 +138,15 @@ td:nth-child(6) { background: hsl(200, 99%, 50%); } */
   z-index: -1;
 }
 
-.exp {
-/*   display: flex; */
-}
-
 #block {
-/*   flex: 1; */
+
   width: 40%;
   float: left;
   margin: 0px 30px 0px 30px;
 }
 
 #inline {
-/*   flex: 1; */
+
   width: 40%;
   margin: 0px 30px 0px 30px;
 }
@@ -182,7 +158,7 @@ td:nth-child(6) { background: hsl(200, 99%, 50%); } */
 
 }
 
-section.class {
+div.class {
   background-color: gainsboro;
   padding: 20px;
   width: 40%;
