@@ -3,10 +3,12 @@
   background: linear-gradient(90deg, #264653, #4ED0C1);
 }
 
-section {
+div {
   border-radius: 15px;
 }
 
-div {
-  text-align: center;
+div.snippet {
+  background-color: gainsboro;
+  padding: 20px;
+  width: 40%;
 }
