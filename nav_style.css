@@ -42,3 +42,7 @@ span {
 span.blue {
   color: blue;
 }
+
+#boxmodel {
+  width: 50%;
+}
