@@ -7,10 +7,9 @@
   display: flex;
   z-index: -1;
 }
-  
+
 .container-left {
   flex: 1;
-
 }
 
 .container-right {
@@ -21,9 +20,6 @@
   list-style-type: none;
   padding: 50px;
   line-height: 2.5;
-  -webkit-sticky;
-  position: sticky;
-/*   color: royalblue; */
 }
 
 div.snippet {
@@ -46,16 +42,14 @@ td {
 }
 
 #block {
-
   width: 40%;
   float: left;
-/*   margin: 0px 30px 0px 30px; */
+  /*   margin: 0px 30px 0px 30px; */
 }
 
 #inline {
-
   width: 40%;
-/*   margin: 0px 30px 0px 30px; */
+  /*   margin: 0px 30px 0px 30px; */
 }
 
 span {
