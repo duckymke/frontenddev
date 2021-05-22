@@ -117,3 +117,8 @@ footer {
   left: 50px;
   top: 50px;
 }
+
+/* there was a white space above the header to the home page... this fixed it */
+* {
+  margin: 0px;
+}
