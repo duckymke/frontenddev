@@ -60,7 +60,7 @@
             <table>
               <tr>
                 <td>opening tag</td>
-                <td>&LTp&GT</td>
+                <td><span>&LTp&GT</span></td>
               </tr>
               <tr>
                 <td>the content</td>
@@ -68,7 +68,7 @@
               </tr>
               <tr>
                 <td>closing tag</td>
-                <td>&LT/p&GT</td>
+                <td><span>&LT/p&GT</span></td>
               </tr>
             </table>
           </section>
@@ -106,15 +106,15 @@
             <table>
               <tr>
                 <td>Horizontal rule</td>
-                <td>&LThr/&GT</td>
+                <td><span>&LThr/&GT</span></td>
               </tr>
               <tr>
                 <td>line break</td>
-                <td>&LTbr/&GT</td>
+                <td><span>&LTbr/&GT</span></td>
               </tr>
               <tr>
                 <td>image</td>
-                <td>&LTimg/&GT</td>
+                <td><span>&LTimg/&GT</span></td>
               </tr>
             </table>
           </section>
@@ -174,16 +174,16 @@
 
             <table>
               <tr>
-                <td>&LTtable&GT</td>
                 <td>indicates it's a table</td>
+                <td><span>&LTtable&GT</span></td>
               </tr>
               <tr>
-                <td>&LTtr&GT</td>
                 <td>indicates a row</td>
+                <td><span>&LTtr&GT</span></td>
               </tr>
               <tr>
-                <td>&LTtd&GT</td>
                 <td>data cell</td>
+                <td><span>&LTtd&GT</span></td>
               </tr>
             </table>
 
@@ -201,7 +201,7 @@
               </tr>
             </table>
             <p>
-              Text goes between the &LTli&GT tags
+              Text goes between the <span>&LTli&GT</span> tags
             </p>
             <div class="snippet">
               <code>
@@ -214,6 +214,10 @@
                 <pre> </pre>
                 <pre>&LT!-- unordered list --&GT</pre>
                 <pre>&LTul&GT</pre>
+                <pre>  &LTli&GT&LT/li&GT</pre>
+                <pre>  &LTli&GT&LT/li&GT</pre>
+                <pre>  &LTli&GT&LT/li&GT</pre>
+                <pre>&LT/ul&GT</pre>
               </code>
             </div>
             <h3>
