@@ -67,3 +67,9 @@ span.blue {
 #boxmodel {
   width: 50%;
 }
+
+#backtotop {
+  position: relative;
+  left: 950px;
+  bottom: 20px;
+}
