@@ -32,7 +32,7 @@ h3 {
 }
 
 header {
-  height: 400px;
+  height: 350px;
   background: linear-gradient(90deg, #264653, #4ED0C1);
 }
 
@@ -47,6 +47,7 @@ header h1 {
 nav {
   /*   padding: 20px; wasn't working so i used direct child *below* */
   background: linear-gradient(90deg, #264653, #4ED0C1);
+  opacity: 70%;
   text-align: right;
   position: fixed;
   right: 0px;
