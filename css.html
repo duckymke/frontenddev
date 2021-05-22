@@ -29,192 +29,215 @@
       </h1>
     </header>
     <main>
-      <section>
-        <h2>
-          CSS rules
-        </h2>
-        <h3>
-          Cascading
-        </h3>
-        <p>
-          sfhfsdfljshdlk sd sgs jbdvc jvoh
-        </p>
-        <h3>
-          Specificity
-        </h3>
-        <p>
-          sfhfsdfljshdlk sd sgs jbdvc jvoh
-        </p>
-        <h2>
-          link to external CSS;
-        </h2>
-        <p>
-          first, you must know how to connect your HTML page to your css file.
-          The snippet below is the link that you put in the &LThead&GT of your
-          HTML page
-        </p>
-        <div class="snippet">
-          <code>
-            <pre>
+      <div class="container">
+        <div class="container-left">
+          <ul class="links">
+            <li><a href="">CSS rules</a></li>
+            <li><a href="">Link to external CSS</a></li>
+            <li><a href="">Properties and selectors</a></li>
+            <li><a href="">Box model</a></li>
+            <li><a href="">Basic properties</a></li>
+          </ul>
+        </div>
+        <div class="container-right">
+          <section>
+            <h2>
+              CSS rules
+            </h2>
+            <h3>
+              Cascading
+            </h3>
+            <p>
+              sfhfsdfljshdlk sd sgs jbdvc jvoh
+            </p>
+            <h3>
+              Specificity
+            </h3>
+            <p>
+              sfhfsdfljshdlk sd sgs jbdvc jvoh
+            </p>
+            <h2>
+              link to external CSS;
+            </h2>
+            <p>
+              first, you must know how to connect your HTML page to your css
+              file. The snippet below is the link that you put in the &LThead&GT
+              of your HTML page
+            </p>
+            <div class="snippet">
+              <code>
+                <pre>
 &LTlink rel="stylesheet" type="text/css" href="style.css"/&GT</pre
-            >
-          </code>
-        </div>
-        <h2>
-          Properties and Selectors
-        </h2>
-        <h3>
-          What is the css rule set?
-        </h3>
-        <table>
-          <tr>
-            <td>selector</td>
-            <td>ex. paragraph (p)</td>
-          </tr>
-          <tr>
-            <td>property</td>
-            <td>ex. color</td>
-          </tr>
-          <tr>
-            <td>property value</td>
-            <td>ex. lightblue</td>
-          </tr>
-        </table>
+                >
+              </code>
+            </div>
+            <h2>
+              Properties and Selectors
+            </h2>
+            <h3>
+              What is the css rule set?
+            </h3>
+            <table>
+              <tr>
+                <td>selector</td>
+                <td>ex. paragraph (p)</td>
+              </tr>
+              <tr>
+                <td>property</td>
+                <td>ex. color</td>
+              </tr>
+              <tr>
+                <td>property value</td>
+                <td>ex. lightblue</td>
+              </tr>
+            </table>
 
-        <p>
-          hdfkljghskgjhsdkjghskjgskjdgskjghskjd
-          sfsdjvskjvbjtgjdvnkjcbvskdgtseutsdu
-          nskjdbsjuhsodvhxkjvnsjghosidghlxckn ,xkfngsorghioi
-        </p>
+            <p>
+              hdfkljghskgjhsdkjghskjgskjdgskjghskjd
+              sfsdjvskjvbjtgjdvnkjcbvskdgtseutsdu
+              nskjdbsjuhsodvhxkjvnsjghosidghlxckn ,xkfngsorghioi
+            </p>
 
-        <div class="snippet">
-          <code>
-            <pre>p {</pre>
-            <pre>  color: <span class="blue">lightblue</span>;</pre>
-            <pre>}</pre>
-          </code>
+            <div class="snippet">
+              <code>
+                <pre>p {</pre>
+                <pre>  color: <span class="blue">lightblue</span>;</pre>
+                <pre>}</pre>
+              </code>
+            </div>
+            <p>
+              you can apply a css rule set to mulitple elements by using a comma
+              between the selectors
+            </p>
+            <div class="snippet">
+              <code>
+                <pre>h2, h3, p {</pre>
+                <pre>  color: <span class="blue">lightblue</span>;</pre>
+                <pre>}</pre>
+              </code>
+            </div>
+            <h2>
+              Box model
+            </h2>
+            <p>
+              hglksahglwhkjbvslypuhluywpoughljvblejgh whg ohslvh whg uh
+              d,jh;ghdhgl buf;uhv; .fh .iru t;ut lj; hy
+            </p>
+            <img
+              id="boxmodel"
+              src="https://cdn.glitch.com/97833a8f-53fc-4be3-ae1a-8699b4314b77%2FScreen%20Shot%202021-05-20%20at%2011.45.51%20AM.png?v=1621525734281"
+              alt="box model"
+            />
+            <h2>
+              Basic properties
+            </h2>
+            <h3>
+              Fonts
+            </h3>
+            <div class="snippet">
+              <code>
+                <pre>p {</pre>
+                <pre>
+  <span>font-family</span>: 'Courier new', sans-serif;</pre
+                >
+                <pre>  <span>font-size</span>: 18px;</pre>
+                <pre>  <span>font-weight</span>: 400;</pre>
+                <pre>  <span>font-style</span>: italic;</pre>
+                <pre>}</pre>
+              </code>
+            </div>
+            <p>
+              This can be consensed to one declartion.
+            </p>
+            <div class="snippet">
+              <code>
+                <pre>p {</pre>
+                <pre>
+  <span>font</span>: 'Courier new', italic, 18px, 400 sans-serif;</pre
+                >
+                <pre>}</pre>
+              </code>
+            </div>
+
+            <h3>
+              Coloring
+            </h3>
+            <div class="snippet">
+              <code>
+                <pre>/* This changes the text color */</pre>
+                <pre>p {</pre>
+                <pre>  <span>color</span>: rebeccapurple;</pre>
+                <pre>}</pre>
+                <pre></pre>
+                <pre>/* This changes the background color */</pre>
+                <pre>p {</pre>
+                <pre>  <span>background-color</span>: aliceblue;</pre>
+                <pre>}</pre>
+              </code>
+            </div>
+            <h3>
+              Positioning
+            </h3>
+            <table>
+              <tr>
+                <td>static</td>
+                <td>this is the default positioning of the element</td>
+              </tr>
+              <tr>
+                <td>relative</td>
+                <td>
+                  changes the positioning in relation to where it was originally
+                </td>
+              </tr>
+              <tr>
+                <td>absolute</td>
+                <td>
+                  changes the positioning in relation to the dimensions of the
+                  webpage
+                </td>
+              </tr>
+              <tr>
+                <td>sticky</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>fixed</td>
+                <td></td>
+              </tr>
+            </table>
+
+            <div class="snippet">
+              <code>
+                <pre>p {</pre>
+                <pre>  <span>position</span>: static;</pre>
+                <pre>}</pre>
+                <pre></pre>
+                <pre>p {</pre>
+                <pre>  <span>position</span>: relative;</pre>
+                <pre>}</pre>
+                <pre></pre>
+                <pre>p {</pre>
+                <pre>  <span>position</span>: absolute;</pre>
+                <pre>}</pre>
+                <pre></pre>
+                <pre>p {</pre>
+                <pre>  <span>position</span>: sticky;</pre>
+                <pre>}</pre>
+                <pre></pre>
+                <pre>p {</pre>
+                <pre>  <span>position</span>: fixed;</pre>
+                <pre>}</pre>
+              </code>
+            </div>
+            <h3>
+              Pseudo-classes
+            </h3>
+            <h3>
+              Pseudo-elements
+            </h3>
+          </section>
         </div>
-        <p>
-          you can apply a css rule set to mulitple elements by using a comma
-          between the selectors
-        </p>
-        <div class="snippet">
-          <code>
-            <pre>h2, h3, p {</pre>
-            <pre>  color: <span class="blue">lightblue</span>;</pre>
-            <pre>}</pre>
-          </code>
-        </div>
-        <h2>
-          Box model
-        </h2>
-        <p>
-          hglksahglwhkjbvslypuhluywpoughljvblejgh whg ohslvh whg uh d,jh;ghdhgl
-          buf;uhv; .fh .iru t;ut lj; hy
-        </p>
-        <img
-          id="boxmodel"
-          src="https://cdn.glitch.com/97833a8f-53fc-4be3-ae1a-8699b4314b77%2FScreen%20Shot%202021-05-20%20at%2011.45.51%20AM.png?v=1621525734281"
-          alt="box model"
-        />
-        <h2>
-          Basic properties
-        </h2>
-        <h3>
-          Fonts
-        </h3>
-         <div class="snippet">
-          <code>
-            <pre>p {</pre>
-            <pre>  <span>font-family</span>: 'Courier new', sans-serif;</pre>
-            <pre>  <span>font-size</span>: 18px;</pre>
-            <pre>  <span>font-weight</span>: 400;</pre>
-            <pre>  <span>font-style</span>: italic;</pre>
-            <pre>}</pre>
-          </code>
-        </div>
-        <p>
-          This can be consensed to one declartion.
-        </p>
-        <div class="snippet">
-          <code>
-            <pre>p {</pre>
-            <pre>  <span>font</span>: 'Courier new', italic, 18px, 400 sans-serif;</pre>
-            <pre>}</pre>
-          </code>
-        </div>
-        
-        <h3>
-          Coloring
-        </h3>
-        <div class="snippet">
-          <code>
-            <pre>/* This changes the text color */</pre>
-            <pre>p {</pre>
-            <pre>  <span>color</span>: rebeccapurple;</pre>
-            <pre>}</pre>
-            <pre> </pre>
-            <pre>/* This changes the background color */</pre>
-            <pre>p {</pre>
-            <pre>  <span>background-color</span>: aliceblue;</pre>
-            <pre>}</pre>
-          </code>
-        </div>
-        <h3>
-          Positioning
-        </h3>
-        <table>
-          <tr>
-            <td>static</td>
-            <td>this is the default positioning of the element</td>
-          </tr>
-          <tr>
-            <td>relative</td>
-            <td>changes the positioning in relation to where it was originally</td>
-          </tr>
-          <tr>
-            <td>absolute</td>
-            <td>changes the positioning in relation to the dimensions of the webpage</td>
-          </tr>
-          <tr>
-            <td>sticky</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>fixed</td>
-            <td></td>
-          </tr>
-        </table>
-        <div class="snippet">
-          <code>
-            <pre>p {</pre>
-            <pre>  <span>position</span>: static;</pre>
-            <pre>}</pre>
-            <pre> </pre>
-            <pre>p {</pre>
-            <pre>  <span>position</span>: relative;</pre>
-            <pre>}</pre>
-            <pre> </pre>
-            <pre>p {</pre>
-            <pre>  <span>position</span>: absolute;</pre>
-            <pre>}</pre>
-            <pre> </pre>
-            <pre>p {</pre>
-            <pre>  <span>position</span>: sticky;</pre>
-            <pre>}</pre>
-            <pre> </pre>
-            <pre>p {</pre>
-            <pre>  <span>position</span>: fixed;</pre>
-            <pre>}</pre>
-          </code>
-        </div>
-        <h3>
-          Pseudo-classes
-        </h3>
-        <h3>
-          Pseudo-elements
-        </h3>
-      </section>
+      </div>
     </main>
     <footer>
       <p>

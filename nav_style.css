@@ -18,8 +18,9 @@
 }
 
 .links {
-  text-decoration: none;
+  list-style-type: none;
   padding: 50px;
+  line-height: 2.5;
 }
 
 div.snippet {
