@@ -3,6 +3,25 @@
   background: linear-gradient(90deg, #264653, #4ED0C1);
 }
 
+.container {
+  display: flex;
+  z-index: -1;
+}
+  
+.container-left {
+  flex: 1;
+
+}
+
+.container-right {
+  flex: 3;
+}
+
+.links {
+  text-decoration: none;
+  padding: 50px;
+}
+
 div.snippet {
   background-color: gainsboro;
   padding: 20px;
