@@ -21,6 +21,8 @@
   list-style-type: none;
   padding: 50px;
   line-height: 2.5;
+  -webkit-sticky;
+  position: sticky;
 /*   color: royalblue; */
 }
 
