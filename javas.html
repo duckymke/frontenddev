@@ -150,10 +150,12 @@
               </code>
             </div>
             <p>
-              to display the type of data type in the console, you can type the following;
+              to display the type of data type in the console, you can type the
+              following;
             </p>
             <div class="snippet">
-              <code><!--                 ><pre>
+              <code
+                ><!--                 ><pre>
 // remember that console.log() will display the command of your choice //</pre
                 > -->
                 <pre></pre>
@@ -194,7 +196,8 @@ console.log(<span>typeof</span> name); // this will display 'string' in the cons
               What is an array?
             </h3>
             <p>
-              An array is a list of items contained within a variable, enclosed in square brackets
+              An array is a list of items contained within a variable, enclosed
+              in square brackets
             </p>
             <div class="snippet">
               <code
@@ -204,7 +207,9 @@ console.log(<span>typeof</span> name); // this will display 'string' in the cons
               </code>
             </div>
             <p>
-              Now, arrays are 'zero based' which means that the first value in the array is 0 and so on and so forth. If we want to display a specfic value we could do the following;
+              Now, arrays are 'zero based' which means that the first value in
+              the array is 0 and so on and so forth. If we want to display a
+              specfic value we could do the following;
             </p>
             <div class="snippet">
               <code
@@ -213,7 +218,8 @@ console.log(<span>typeof</span> name); // this will display 'string' in the cons
               </code>
             </div>
             <p>
-              We can also add a value to the function but we cannot reassign since we are using <span>const</span>
+              We can also add a value to the function but we cannot reassign
+              since we are using <span>const</span>
             </p>
             <div class="snippet">
               <code
@@ -230,11 +236,11 @@ console.log(<span>typeof</span> name); // this will display 'string' in the cons
                 ><pre>// .push add value to the end</pre>
                 <pre>animals.push(<span class="purple">'tiger'</span>);</pre>
                 <pre><span>console.log</span>(animals);</pre>
-                <pre> </pre>
+                <pre></pre>
                 <pre>// .unshift adds value to the front</pre>
                 <pre>animals.unshift(<span class="purple">'shrew'</span>);</pre>
                 <pre><span>console.log</span>(animals);</pre>
-                <pre> </pre>
+                <pre></pre>
                 <pre>// .pop takes the last value off</pre>
                 <pre>animals.pop();</pre>
                 <pre><span>console.log</span>(animals);</pre>
@@ -247,7 +253,7 @@ console.log(<span>typeof</span> name); // this will display 'string' in the cons
               <code
                 ><pre>// check if its an array</pre>
                 <pre><span>console.log</span>(Array.isArray(animals));</pre>
-                <pre> </pre>
+                <pre></pre>
                 <pre>// check the position of a value //</pre>
                 <pre><span>console.log</span>(animals.indexOf(<span class="purple">'duck'</span>));</pre>
               </code>
@@ -256,7 +262,8 @@ console.log(<span>typeof</span> name); // this will display 'string' in the cons
               Object literals
             </h2>
             <p>
-              Object literals are key value pairs of property names and values which are enlosed by curly braces
+              Object literals are key value pairs of property names and values
+              which are enlosed by curly braces
             </p>
             <p>
               Lets say we want to an object literal of a person and their info
@@ -282,16 +289,20 @@ console.log(<span>typeof</span> name); // this will display 'string' in the cons
             </p>
             <div class="snippet">
               <code
-                ><pre>// if we wanna access a single value from this expression</pre>
+                ><pre>
+// if we wanna access a single value from this expression</pre
+                >
                 <pre><span>console.log</span>(person.firstName); // displays 'Eva'</pre>
-                <pre> </pre>
+                <pre></pre>
                 <pre>// if we wanna access something from an array</pre>
                 <pre><span>console.log</span>(person.hobbies[1]); // displays 'cooking'</pre>
-                <pre> </pre>
-                <pre>// destructuring to create variables with curly braces</pre>
+                <pre></pre>
+                <pre>
+// destructuring to create variables with curly braces</pre
+                >
                 <pre><span class="blue">const</span> { firstName, lastName } = person;</pre>
                 <pre><span>console.log</span>(firstName);</pre>
-                <pre> </pre>
+                <pre></pre>
                 <pre>// add property with dot</pre>
                 <pre>person.email = 'eva@gmail.com'</pre>
                 <pre><span>console.log</span>(person);</pre>
@@ -301,20 +312,25 @@ console.log(<span>typeof</span> name); // this will display 'string' in the cons
               We can also make to-do lists
             </p>
             <div class="snippet">
-              <code
-                ><pre>const todolist = [</pre>
-                <pre><span>console.log</span>(person.firstName); // displays 'Eva'</pre>
-                <pre> </pre>
-                <pre>// if we wanna access something from an array</pre>
-                <pre><span>console.log</span>(person.hobbies[1]); // displays 'cooking'</pre>
-                <pre> </pre>
-                <pre>// destructuring to create variables with curly braces</pre>
-                <pre><span class="blue">const</span> { firstName, lastName } = person;</pre>
-                <pre><span>console.log</span>(firstName);</pre>
-                <pre> </pre>
-                <pre>// add property with dot</pre>
-                <pre>person.email = 'eva@gmail.com'</pre>
-                <pre><span>console.log</span>(person);</pre>
+              <code>
+                <pre><span class="blue">const</span> todolist = [</pre>
+                <pre>  {</pre>
+                <pre>    id: 1,</pre>
+                <pre>    text: 'study calculus II',</pre>
+                <pre>    isCompleted: true,</pre>
+                <pre>  },</pre>
+                <pre>  {</pre>
+                <pre>    id: 2,</pre>
+                <pre>    text: 'study chem',</pre>
+                <pre>    isCompleted: false,</pre>
+                <pre>  },</pre>
+                <pre>  {</pre>
+                <pre>    id: 3,</pre>
+                <pre>    text: 'study bio',</pre>
+                <pre>    isCompleted: false,</pre>
+                <pre>  },</pre>
+                <pre>];</pre>
+                <pre><span>console.log</span>(todolist);</pre>
               </code>
             </div>
           </section>
