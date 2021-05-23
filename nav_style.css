@@ -72,6 +72,10 @@ span.blue {
 }
 
 .spacing {
-  padding: 40px 0 32px 0;
+  padding: 60px 0 32px 0;
   
+}
+
+.topspacing {
+  padding: 0px 0 0 0;
 }
