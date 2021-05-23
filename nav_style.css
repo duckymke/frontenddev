@@ -86,4 +86,5 @@ span.purple {
 .tutorials {
   width: 70%;
   padding: 20px;
+  border: 5px solid gainsboro;
 }
