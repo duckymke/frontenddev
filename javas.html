@@ -139,14 +139,14 @@
             <div class="snippet">
               <code
                 ><pre>
-// we will use the variable const to define the following data types //</pre
+// we will use the variable const to define the following data types</pre
                 >
                 <pre></pre>
-                <pre><span class="blue">const</span> name = 'Kenji'; // this is a string //</pre>
-                <pre><span class="blue">const</span> isCool = true; // this is a boolean //</pre>
-                <pre><span class="blue">const</span> x = null; // this is null //</pre>
-                <pre><span class="blue">const</span> y = undefined; // this is undefined// </pre>
-                <pre><span class="blue">const</span> age = '18'; // this is a number //</pre>
+                <pre><span class="blue">const</span> name = 'Kenji'; // this is a string</pre>
+                <pre><span class="blue">const</span> isCool = true; // this is a boolean</pre>
+                <pre><span class="blue">const</span> x = null; // this is null</pre>
+                <pre><span class="blue">const</span> y = undefined; // this is undefined</pre>
+                <pre><span class="blue">const</span> age = '18'; // this is a number</pre>
               </code>
             </div>
             <p>
@@ -158,7 +158,7 @@
                 > -->
                 <pre></pre>
                 <pre>
-console.log(<span>typeof</span> name); // this will display 'string' in the console //</pre
+console.log(<span>typeof</span> name); // this will display 'string' in the console</pre
                 >
               </code>
             </div>
@@ -171,17 +171,17 @@ console.log(<span>typeof</span> name); // this will display 'string' in the cons
 
             <div class="snippet">
               <code
-                ><pre>// concatenation //</pre>
+                ><pre>// concatenation</pre>
                 <pre><span>console.log</span>('Howdy' + name + ', how are you?');</pre>
                 <pre></pre>
-                <pre>// template string //</pre>
+                <pre>// template string</pre>
                 <pre><span>console.log</span>(`your name is ${name} and you are ${age} years old`);</pre>
                 <pre></pre>
-                <pre>// as a variable //</pre>
+                <pre>// as a variable</pre>
                 <pre><span class="blue">const</span> convo = `your name is ${name} and you are ${age} years old`;</pre>
                 <pre><span>console.log</span>(convo);</pre>
                 <pre></pre>
-                <pre>// number of characters in a string //</pre>
+                <pre>// number of characters in a string</pre>
                 <pre><span class="blue">const</span> s = 'hello world!';</pre>
                 <pre><span>console.log</span>(s.length);</pre>
               </code>
@@ -198,7 +198,7 @@ console.log(<span>typeof</span> name); // this will display 'string' in the cons
             </p>
             <div class="snippet">
               <code
-                ><pre>// for example //</pre>
+                ><pre>// for example</pre>
                 <pre><span class="blue">const</span> animals = [<span class="purple">'duck'</span>, <span class="purple">'antelope'</span>, <span class="purple">'kiwi'</span>, <span class="purple">'whale'</span>];</pre>
                 <pre><span>console.log</span>(animals);</pre>
               </code>
@@ -208,7 +208,7 @@ console.log(<span>typeof</span> name); // this will display 'string' in the cons
             </p>
             <div class="snippet">
               <code
-                ><pre>// lets display 'kiwi' from the animal array //</pre>
+                ><pre>// lets display 'kiwi' from the animal array</pre>
                 <pre><span>console.log</span>(animals[2]);</pre>
               </code>
             </div>
@@ -217,35 +217,47 @@ console.log(<span>typeof</span> name); // this will display 'string' in the cons
             </p>
             <div class="snippet">
               <code
-                ><pre>// lets add 'bear' to the animal array //</pre>
+                ><pre>// lets add 'bear' to the animal array</pre>
                 <pre>animals[4] = <span class="purple">'bear'</span>;</pre>
                 <pre><span>console.log</span>(animals);</pre>
               </code>
             </div>
             <p>
-              The following are some other ways to modify an array
+              The following are some other ways to modify an array;
             </p>
             <div class="snippet">
               <code
-                ><pre>// .push add value to the end //</pre>
+                ><pre>// .push add value to the end</pre>
                 <pre>animals.push(<span class="purple">'tiger'</span>);</pre>
                 <pre><span>console.log</span>(animals);</pre>
                 <pre> </pre>
-                <pre>// .unshift adds value to the front //</pre>
+                <pre>// .unshift adds value to the front</pre>
                 <pre>animals.unshift(<span class="purple">'shrew'</span>);</pre>
                 <pre><span>console.log</span>(animals);</pre>
                 <pre> </pre>
-                <pre>// .pop takes the last value off //</pre>
+                <pre>// .pop takes the last value off</pre>
                 <pre>animals.pop();</pre>
                 <pre><span>console.log</span>(animals);</pre>
               </code>
             </div>
             <p>
-              The following are 
+              The following are ways to check specifics;
             </p>
+            <div class="snippet">
+              <code
+                ><pre>// check if its an array</pre>
+                <pre><span>console.log</span>(Array.isArray(animals));</pre>
+                <pre> </pre>
+                <pre>// check the position of a value //</pre>
+                <pre><span>console.log</span>(animals.indexOf(<span class="purple">'duck'</span>));</pre>
+              </code>
+            </div>
             <h2 id="5th">
               Object literals
             </h2>
+            <p>
+              Object literals are key value pairs of property names and values which are enlosed by curly braces
+            </p>
           </section>
           <a id="backtotop" href="html.html">Back to top!</a>
         </div>
