@@ -212,6 +212,34 @@ console.log(<span>typeof</span> name); // this will display 'string' in the cons
                 <pre><span>console.log</span>(animals[2]);</pre>
               </code>
             </div>
+            <p>
+              We can also add a value to the function but we cannot reassign since we are using <span>const</span>
+            </p>
+            <div class="snippet">
+              <code
+                ><pre>// lets add 'bear' to the animal array //</pre>
+                <pre>animals[4] = <span class="purple">'bear'</span>;</pre>
+                <pre><span>console.log</span>(animals);</pre>
+              </code>
+            </div>
+            <p>
+              The following are some other ways to modify an array
+            </p>
+            <div class="snippet">
+              <code
+                ><pre>// .push add value to the end //</pre>
+                <pre>animals.push(<span class="purple">'tiger'</span>);</pre>
+                <pre><span>console.log</span>(animals);</pre>
+                <pre> </pre>
+                <pre>// .unshift adds value to the front //</pre>
+                <pre>animals.unshift(<span class="purple">'shrew'</span>);</pre>
+                <pre><span>console.log</span>(animals);</pre>
+                <pre> </pre>
+                <pre>// .pop takes the last value off //</pre>
+                <pre>animals.pop();</pre>
+                <pre><span>console.log</span>(animals);</pre>
+              </code>
+            </div>
             <h2 id="5th">
               Object literals
             </h2>
