@@ -25,8 +25,9 @@
 div.snippet {
   background-color: gainsboro;
   padding: 20px;
-  width: 50%;
+  width: 65%;
   border-radius: 15px;
+/*   font-weight: 100; */
 }
 
 main {
