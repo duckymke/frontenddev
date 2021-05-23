@@ -1,3 +1,13 @@
+#logohome {
+  position: relative;
+  left: 620px;
+  top: 100px;
+}
+
+.logonav {
+  
+}
+
 body {
   margin: 0px;
   font-family: "arial", sans-serif;
@@ -37,7 +47,7 @@ header {
 }
 
 header h1 {
-  line-height: 500px;
+  line-height: 100px;
   font-size: 45px;
   color: white;
   text-align: center;
