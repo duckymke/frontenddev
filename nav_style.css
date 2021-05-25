@@ -26,10 +26,16 @@ a.links:active {
   color: black;
 }
 
-.side {
+a.side {
   background-color: #F0F0F0;
-  padding: 10px;
-  border-radius: 30%;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5%;
+  border: gainsboro, 1px;
+}
+
+a.side:hover {
+  background-color: gainsboro;
 }
 
 div.snippet {
