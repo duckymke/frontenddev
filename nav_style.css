@@ -22,6 +22,16 @@
   line-height: 2.5;
 }
 
+a.links:active {
+  color: black;
+}
+
+.side {
+  background-color: #F0F0F0;
+  padding: 10px;
+  border-radius: 30%;
+}
+
 div.snippet {
   background-color: gainsboro;
   padding: 20px;
