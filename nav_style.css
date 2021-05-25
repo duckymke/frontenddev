@@ -27,6 +27,7 @@ div.snippet {
   padding: 20px;
   width: 65%;
   border-radius: 15px;
+  border: gray;
 /*   font-weight: 100; */
 }
 

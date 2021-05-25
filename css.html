@@ -24,11 +24,16 @@
           <li><a href="extras.html">Extras</a></li>
         </ul>
       </nav>
-      <img class="logonav" src="https://cdn.glitch.com/d5fadbb3-759a-4e71-859c-aaabff44a03c%2F66f0f6733b0c47f5acc5ba18af274d62.png?v=1618870213034" alt="logo"/>
+      <img
+        class="logonav"
+        src="https://cdn.glitch.com/d5fadbb3-759a-4e71-859c-aaabff44a03c%2F66f0f6733b0c47f5acc5ba18af274d62.png?v=1618870213034"
+        alt="logo"
+      />
       <h1 id="navpages">
         Cascading Style Sheets
       </h1>
     </header>
+
     <main>
       <div class="container">
         <div class="container-left">
@@ -45,28 +50,38 @@
             <h2 id="1st">
               CSS rules
             </h2>
+
             <h3>
               Cascading
             </h3>
+
             <p>
-              The browser chooses and displays the last specified property of a certain selector
+              The browser chooses and displays the last specified property of a
+              certain selector
             </p>
+
             <h3>
               Specificity
             </h3>
+
             <p>
-              The browser decides which element is more significant than another and choose that element to have the CSS value
+              The browser decides which element is more significant than another
+              and choose that element to have the CSS value
             </p>
           </section>
-            <section>
+
+          <section>
             <h2 id="2nd">
               link to external CSS;
             </h2>
+
             <p>
-              first, you must know how to connect your HTML page to your css
-              file. The snippet below is the link that you put in the <span>&LThead&GT</span>
+              First, you must know how to connect your HTML page to your css
+              file. The snippet below is the link that you put in the
+              <span>&LThead&GT</span>
               of your HTML page
             </p>
+
             <div class="snippet">
               <code>
                 <pre>
@@ -75,11 +90,12 @@
               </code>
             </div>
           </section>
+
           <section>
             <h2 id="3rd">
               What is the css rule set?
             </h2>
-          
+
             <table>
               <tr>
                 <td>selector</td>
@@ -96,8 +112,9 @@
             </table>
 
             <p>
-              together, the css rule set makes what is called a <span>declaration</span>,
-              which is observed in the code snippet below
+              Together, the css rule set makes what is called a
+              <span>declaration</span>, which is observed in the code snippet
+              below
             </p>
 
             <div class="snippet">
@@ -107,10 +124,12 @@
                 <pre>}</pre>
               </code>
             </div>
+
             <p>
-              you can apply a css rule set to mulitple elements by using a comma
+              You can apply a css rule set to mulitple elements by using a comma
               between the selectors
             </p>
+
             <div class="snippet">
               <code>
                 <pre>h2, h3, p {</pre>
@@ -119,29 +138,37 @@
               </code>
             </div>
           </section>
+
           <section>
             <h2 id="4th">
               Box model
             </h2>
+
             <p>
-              The box model is an easier way to see and understand what spacing you can make around an element
+              The box model is an easier way to see and understand what spacing
+              you can make around an element
             </p>
+
             <img
               id="boxmodel"
               src="https://cdn.glitch.com/97833a8f-53fc-4be3-ae1a-8699b4314b77%2FScreen%20Shot%202021-05-20%20at%2011.45.51%20AM.png?v=1621525734281"
               alt="box model"
             />
           </section>
+
           <section>
             <h2 id="5th">
               Basic properties
             </h2>
+
             <h3 class="topspacing">
               Fonts
             </h3>
+
             <p>
               All of these declarations allow you to style text to your liking
             </p>
+
             <div class="snippet">
               <code>
                 <pre>p {</pre>
@@ -154,9 +181,11 @@
                 <pre>}</pre>
               </code>
             </div>
+
             <p>
               To make life eassier, this can be consensed to one declartion.
             </p>
+
             <div class="snippet">
               <code>
                 <pre>p {</pre>
@@ -170,6 +199,7 @@
             <h3 class="spacing">
               Coloring
             </h3>
+
             <div class="snippet">
               <code>
                 <pre>/* This changes the text color */</pre>
@@ -183,15 +213,16 @@
                 <pre>}</pre>
               </code>
             </div>
-            <p>
-              
-            </p>
+
             <h3 class="topspacing">
               Positioning
             </h3>
+
             <p>
-              Positioning is the key to a layout on your web page. This property allows you to move elements around where ever you like
+              Positioning is the key to a layout on your web page. This property
+              allows you to move elements around where ever you like
             </p>
+
             <table>
               <tr>
                 <td>static</td>
@@ -212,14 +243,18 @@
               </tr>
               <tr>
                 <td>fixed</td>
-                <td>keeps the element in the same position when the reader scrolls down the page</td>
+                <td>
+                  keeps the element in the same position when the reader scrolls
+                  down the page
+                </td>
               </tr>
             </table>
 
             <p>
-              for relative and absolute positioning, you can use the top, right,
+              For relative and absolute positioning, you can use the top, right,
               bottom and left attributes to specify
             </p>
+
             <table>
               <tr>
                 <td>top: 50px;</td>
@@ -270,39 +305,55 @@
                 <pre>}</pre>
               </code>
             </div>
+
             <h3 class="spacing">
               Pseudo-classes
             </h3>
+
             <p>
-              A keyword that added to a selector by : to add specific state to the element
+              A keyword that added to a selector by : to add specific state to
+              the element
             </p>
+
             <div class="snippet">
               <code>
-                <pre>/* :hover can be used to change color when the mouse hovers over it */</pre>
+                <pre>
+/* :hover can be used to change color when the mouse hovers over it */</pre
+                >
                 <pre><span>h2</span>:hover {</pre>
                 <pre>  color: teal;</pre>
                 <pre>}</pre>
-                <pre> </pre>
-                <pre>/* :active can be used to change color when the mouse clicks it */</pre>
+                <pre></pre>
+                <pre>
+/* :active can be used to change color when the mouse clicks it */</pre
+                >
                 <pre><span>h2</span>:active {</pre>
                 <pre>  color: white;</pre>
                 <pre>}</pre>
               </code>
             </div>
+
             <h3 class="spacing">
               Pseudo-elements
             </h3>
+
             <p>
-              A keyword added to a selector by :: to add specific state to the element
+              A keyword added to a selector by :: to add specific state to the
+              element
             </p>
+
             <div class="snippet">
               <code>
-                <pre>/* ::first-letter can be used to change color to the first letter */</pre>
+                <pre>
+/* ::first-letter can be used to change color to the first letter */</pre
+                >
                 <pre><span>h1</span>::first-letter {</pre>
                 <pre>  color: purple;</pre>
                 <pre>}</pre>
-                <pre> </pre>
-                <pre>/* ::first-line can be used to change color of the first line of &LTp&GT */</pre>
+                <pre></pre>
+                <pre>
+/* ::first-line can be used to change color of the first line of &LTp&GT */</pre
+                >
                 <pre><span>p</span>::first-line {</pre>
                 <pre>  color: orangered;</pre>
                 <pre>}</pre>
@@ -312,11 +363,14 @@
         </div>
       </div>
     </main>
+
     <footer>
       <a id="backtotop" href="html.html">Back to top!</a>
+
       <p>
         Contact us
       </p>
+
       <p>
         email us at
         <a href="mailto:frontenddev@web.com">frontenddev@web.com</a>
